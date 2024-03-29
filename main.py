@@ -2,6 +2,9 @@ from utils.apiHandler import checkRateLimit as api_call
 from utils.newApiHandler import checkRateLimit as new_api_call
 import json
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 '''
